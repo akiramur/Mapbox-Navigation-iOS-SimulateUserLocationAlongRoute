@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "NavigationLocationManager.init():NavigationLocationManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in NavigationMapView.setupMapView(_:navigationCameraType:tileStoreLocation:):NavigationMapView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "location.coordinate.latitude">
+            </PersistentString>
+            <PersistentString
+               value = "location.coordinate.longitude">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MapboxNavigationService.locationManager.getter:NavigationService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "simulatedLocationSource">
+            </PersistentString>
+            <PersistentString
+               value = "nativeLocationSource">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MapboxNavigationService.start():NavigationService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "locationManager">
+            </PersistentString>
+            <PersistentString
+               value = "nativeLocationSource">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MapboxNavigationService.init(routeResponse:routeIndex:routeOptions:routingProvider:credentials:locationSource:eventsManagerType:simulating:routerType:):NavigationService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "NavigationViewController.navigationService(_:didUpdate:with:rawLocation:):NavigationViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "location.coordinate.longitude">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NavigationViewController.setupNavigationService():NavigationViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationOptions?.navigationService">
+            </PersistentString>
+            <PersistentString
+               value = "navigationService.locationManager.simulatesLocation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SimulatedLocationManager.location.getter:SimulatedLocationManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "simulatedLocation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
