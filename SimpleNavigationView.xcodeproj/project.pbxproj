@@ -14,9 +14,6 @@
 		BD474BDD283761F700AC9BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD474BDB283761F700AC9BD9 /* Main.storyboard */; };
 		BD474BDF283761F800AC9BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD474BDE283761F800AC9BD9 /* Assets.xcassets */; };
 		BD474BE2283761F800AC9BD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD474BE0283761F800AC9BD9 /* LaunchScreen.storyboard */; };
-		BD474BED283761F900AC9BD9 /* SimpleNavigationViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD474BEC283761F900AC9BD9 /* SimpleNavigationViewTests.swift */; };
-		BD474BF7283761F900AC9BD9 /* SimpleNavigationViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD474BF6283761F900AC9BD9 /* SimpleNavigationViewUITests.swift */; };
-		BD474BF9283761F900AC9BD9 /* SimpleNavigationViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD474BF8283761F900AC9BD9 /* SimpleNavigationViewUITestsLaunchTests.swift */; };
 		BD474C072837631000AC9BD9 /* MapboxNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = BD474C062837631000AC9BD9 /* MapboxNavigation */; };
 /* End PBXBuildFile section */
 
@@ -48,10 +45,7 @@
 		BD474BE1283761F800AC9BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD474BE3283761F800AC9BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD474BE8283761F900AC9BD9 /* SimpleNavigationViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleNavigationViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD474BEC283761F900AC9BD9 /* SimpleNavigationViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNavigationViewTests.swift; sourceTree = "<group>"; };
 		BD474BF2283761F900AC9BD9 /* SimpleNavigationViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleNavigationViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD474BF6283761F900AC9BD9 /* SimpleNavigationViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNavigationViewUITests.swift; sourceTree = "<group>"; };
-		BD474BF8283761F900AC9BD9 /* SimpleNavigationViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNavigationViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				BD474BD4283761F700AC9BD9 /* SimpleNavigationView */,
-				BD474BEB283761F900AC9BD9 /* SimpleNavigationViewTests */,
-				BD474BF5283761F900AC9BD9 /* SimpleNavigationViewUITests */,
 				BD474BD3283761F700AC9BD9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,23 +105,6 @@
 				BD034B4C284DDD5900598932 /* SimulatedRouteLocationManager.swift */,
 			);
 			path = SimpleNavigationView;
-			sourceTree = "<group>";
-		};
-		BD474BEB283761F900AC9BD9 /* SimpleNavigationViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				BD474BEC283761F900AC9BD9 /* SimpleNavigationViewTests.swift */,
-			);
-			path = SimpleNavigationViewTests;
-			sourceTree = "<group>";
-		};
-		BD474BF5283761F900AC9BD9 /* SimpleNavigationViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BD474BF6283761F900AC9BD9 /* SimpleNavigationViewUITests.swift */,
-				BD474BF8283761F900AC9BD9 /* SimpleNavigationViewUITestsLaunchTests.swift */,
-			);
-			path = SimpleNavigationViewUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +255,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD474BED283761F900AC9BD9 /* SimpleNavigationViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,8 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD474BF7283761F900AC9BD9 /* SimpleNavigationViewUITests.swift in Sources */,
-				BD474BF9283761F900AC9BD9 /* SimpleNavigationViewUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,7 +591,7 @@
 			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios.git";
 			requirement = {
 				kind = exactVersion;
-				version = 2.4.1;
+				version = 2.10.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

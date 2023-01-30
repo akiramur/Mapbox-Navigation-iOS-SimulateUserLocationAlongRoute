@@ -35,6 +35,7 @@ class ViewController: UIViewController {
                 
                 guard let simulatedRoute = response.routes?.first else { return }
                 print("simulatedRoute: \(simulatedRoute.description)")
+                //let simulatedLocationManager = SimulatedLocationManager(route: simulatedRoute)
                 let simulatedLocationManager = SimulatedRouteLocationManager(route: simulatedRoute)
                 simulatedLocationManager.startUpdatingLocation()
                 
